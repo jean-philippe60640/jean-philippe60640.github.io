@@ -1,3 +1,7 @@
+.img1{
+  opacity: 0.9;
+  margin-top: 50px;
+}
 body{
   background-image: url("images/images.jpeg");
   background-size: cover;
@@ -9,7 +13,11 @@ body{
 }
 .container{
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+  }
+  .container-fluid{
+  margin-top: 50px;
+  margin-bottom: 70px;
   }
 .accueil{
   height: auto;
@@ -26,7 +34,7 @@ body{
     margin-left: 60px;
     margin-right: auto;
   }
-li{
+.limenu{
 margin-left: 80px;
 margin-right: auto;
 margin-top: 10px;
@@ -56,6 +64,7 @@ a:hover{
   }
   #myCarousel{
     width: 90%;/*taille caroussel*/
+    margin-top: 30px;
   }
   .manege{
     margin-top: 40px;
@@ -88,7 +97,7 @@ a:hover{
 }
 #loading3{
   transition: all 800ms ease;
-  width: 40%;
+  width: 50%;
   height: 29px;
   background: grey;
   padding-left: 2px;
@@ -109,6 +118,16 @@ a:hover{
 #loading5{
   transition: all 800ms ease;
   width: 35%;
+  height: 29px;
+  background: grey;
+  padding-left: 2px;
+  border-radius: 10px;
+
+  animation: load 10s ease infinite;
+}
+#loading6{
+  transition: all 800ms ease;
+  width: 45%;
   height: 29px;
   background: grey;
   padding-left: 2px;
@@ -149,4 +168,38 @@ float: right;
 }
 .lien{
   margin-bottom: 20px;
+  margin-right: 40px;
+}
+.projet{
+    background-color: grey;
+    border-radius: 20px 20px;
+    box-shadow: 5px 5px black;
+    opacity: 0.7;
+     margin-top: 45px;
+     padding-bottom: 30px;
+
+}
+.cv{
+    margin-bottom: 50px;
+}
+.jp{
+    margin-top: 25px; 
+}
+.panel-group{
+    margin-top: 35px;
+}
+.pro{
+    margin-left: 30px;
+}
+.tab{
+    margin-left: 20px;
+}
+.tab-content{
+    margin-top: 10px;
+}
+.pdf{
+    margin-top: 30px;
+}
+.imgit{
+    margin-top: 20px;
 }
